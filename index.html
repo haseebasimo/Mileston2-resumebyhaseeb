@@ -1,0 +1,37 @@
+<html lang="en"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Resume builder</h1>
+    <form id="resumeform">
+        <fieldset>
+            <legend>Personal information</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required><br>
+        </fieldset>
+        <fieldset>
+            <label for="Education">Education:</label>
+            <textarea name="Education" id="Education" rows="4" required></textarea><br>
+        </fieldset>
+        <fieldset>
+            <label for="Experience">Experience:</label>
+            <textarea name="Experience" id="Experience" rows="4" required></textarea><br>
+        </fieldset>
+        <fieldset>
+            <label for="Skills">Skills:</label>
+            <textarea name="skills" id="skills" rows="4" required></textarea>
+        </fieldset>
+        <div class="center-button">
+            <button type="submit">Generate Resume</button>
+        </div>
+    </form>
+</body>
+</html>
